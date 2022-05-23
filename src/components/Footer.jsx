@@ -21,7 +21,7 @@ function Footer() {
         </p>
       </div>
       <div className="flex items-center flex-col md:flex-row md:pl-40 h-fit text-center">
-        <div className="bg-white  w-96 h-60 p-4 mt-40">
+        <div className="bg-white  w-96 h-60 p-4 mt-10">
           <img
             src={brand}
             alt=""
@@ -37,7 +37,7 @@ function Footer() {
           </p>
         </div>
         <div className="bg-cyan-400 h-10 w-2 md:w-7 md:h-1"></div>
-        <div className="bg-white w-96 h-60 p-4 md:mt-24">
+        <div className="bg-white w-96 h-60 p-4 md:mt-28 ">
           <img
             src={detailed}
             alt=""
