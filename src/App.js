@@ -31,7 +31,7 @@ function App() {
   return (
     <div className="App bg-slate-50">
       <Navbar />
-      <div className="mt-7 md:items-center flex flex-col-reverse  md:flex-row ">
+      <div className="mt-7 md:items-center flex flex-col-reverse  md:flex-row">
         <div className="md:mb-10 px-20 md:px-3  ">
           <span className="text-6xl md:text-8xl text-slate-900 font-bold">
             More than just shorter links
@@ -40,7 +40,7 @@ function App() {
             Build your brand's recognition and get detailed insights on how your
             links are performing.
           </p>
-          <button className="bg-cyan-400 text-slate-100 rounded-full border-2 mt-5 px-20 py-5 p-1">
+          <button className="bg-cyan-400 text-slate-100 rounded-full border-2 mt-2 mb-10 px-20 py-5 p-1">
             Get Started
           </button>
         </div>
@@ -48,8 +48,14 @@ function App() {
           <img src={work} alt="" />
         </div>
       </div>
-      <div className=" mt-5">
-        <div className="bg-indigo-900 flex justify-center rounded-md flex items-center  flex-col  md:flex-row ">
+      <div className=" mt-20">
+        <div
+          className="bg-indigo-900 flex justify-center rounded-md flex items-center  flex-col  md:flex-row md:w-3/4 md:ml-44"
+          style={{
+            marginTop: '-90px',
+            position: 'absolute'
+          }}
+        >
           <form
             className="md:mx-20 w-3/4 h-30 ml-2 md:h-24 md:w-3/4 md:ml-44 ml-16"
             onSubmit={onSubmit}

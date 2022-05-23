@@ -10,9 +10,9 @@ import instagram from '../images/instagram.svg';
 
 function Footer() {
   return (
-    <div className="bg-gray-100">
-      <div className="mt-10 md:mt-28 flex flex-col items-center">
-        <h1 className="text-4xl text-slate-900 font-bold flex justify-center">
+    <div className="bg-gray-100" style={{ marginTop: '-120px' }}>
+      <div className="mt-10 md:mt-36 flex flex-col items-center">
+        <h1 className="text-4xl text-slate-900 font-bold flex justify-center mt-52 md:mt-28">
           Advanced Statistics
         </h1>
         <p className="flex justify-center max-w-sm md:max-w-xl text-center text-slate-500 mt-4 md:mt-5">
@@ -21,7 +21,7 @@ function Footer() {
         </p>
       </div>
       <div className="flex items-center flex-col md:flex-row md:pl-40 h-fit text-center">
-        <div className="bg-white  w-96 h-60 p-4 mt-12">
+        <div className="bg-white  w-96 h-60 p-4 mt-40">
           <img
             src={brand}
             alt=""
