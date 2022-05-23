@@ -57,7 +57,7 @@ function App() {
           }}
         >
           <form
-            className="md:mx-20 w-3/4 h-30 ml-2 md:h-24 md:w-3/4 md:ml-44 ml-16"
+            className="md:mx-20 w-3/4 h-30 ml-2 md:h-24 md:w-3/4 md:ml-44"
             onSubmit={onSubmit}
           >
             <input
