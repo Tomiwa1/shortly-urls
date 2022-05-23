@@ -11,7 +11,7 @@ import instagram from '../images/instagram.svg';
 function Footer() {
   return (
     <div className="bg-gray-100">
-      <div className="mt-10 md:mt-20 flex flex-col items-center">
+      <div className="mt-10 md:mt-28 flex flex-col items-center">
         <h1 className="text-4xl text-slate-900 font-bold flex justify-center">
           Advanced Statistics
         </h1>
@@ -21,11 +21,11 @@ function Footer() {
         </p>
       </div>
       <div className="flex items-center flex-col md:flex-row md:pl-40 h-fit text-center">
-        <div className="bg-white  w-96 h-60 p-4 mt-4">
+        <div className="bg-white  w-96 h-60 p-4 mt-12">
           <img
             src={brand}
             alt=""
-            className="p-3 rounded-full bg-purple-900"
+            className="p-3 rounded-full bg-purple-900 ml-36 md:ml-0"
             style={{ marginTop: '-44px' }}
           />
           <h1 className="text-xl text-slate-900 mt-2 mb-4">
@@ -41,7 +41,7 @@ function Footer() {
           <img
             src={detailed}
             alt=""
-            className="p-3 rounded-full bg-purple-900  mb-4"
+            className="p-3 rounded-full bg-purple-900  mb-4 ml-36 md:ml-0"
             style={{ marginTop: '-44px' }}
           />
           <h1 className="text-xl text-slate-900 mt-2 mb-4">Detailed Records</h1>
@@ -55,7 +55,7 @@ function Footer() {
           <img
             src={customize}
             alt=""
-            className="p-3 rounded-full bg-purple-900  mb-4"
+            className="p-3 rounded-full bg-purple-900  mb-4 ml-36 md:ml-0"
             style={{ marginTop: '-44px' }}
           />
           <h5 className="text-xl text-slate-900 mt-2 mb-4">
