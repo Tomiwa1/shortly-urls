@@ -67,7 +67,7 @@ function Footer() {
           </p>
         </div>
       </div>
-      <div className="bg-violet-900 min-w-full h-48 pt-10 mt-40">
+      <div className="bg-violet-900 min-w-full h-60 pt-10 mt-40">
         <h1 className="text-4xl text-white font-bold px-10  items-center  flex md:justify-center">
           Boost your links today
         </h1>
@@ -77,7 +77,7 @@ function Footer() {
           </button>
         </div>
       </div>
-      <footer className=" bg-zinc-900 min-w-screen h-fit" id="foot">
+      <footer className=" bg-zinc-900 min-w-screen h-fit " id="foot">
         <div className="container flex flex-col md:flex-row flex-wrap justify-around items-center">
           <ul className="">
             <div className="mt-10">
