@@ -7,26 +7,26 @@ import work from './images/work.svg';
 import axios from 'axios';
 
 function App() {
-  const [shortly, setShortly] = useState({});
+  // const [shortly, setShortly] = useState({});
   const [value, setValue] = useState('');
 
-  const shorten = async () => {
-    const {
-      apiCall: { data }
-    } = await axios.post(
-      'https://api.rebrandly.com/v1/links?apikey=7f0741c75ac549159aac4fc715c6db7d',
-      {
-        params: {
-          destination: value,
-          domain: { fullName: 'rebrand.ly' }
-        }
-      }
-    );
-  };
+  // const shorten = async () => {
+  //   const {
+  //     apiCall: { data }
+  //   } = await axios.post(
+  //     'https://api.rebrandly.com/v1/links?apikey=7f0741c75ac549159aac4fc715c6db7d',
+  //     {
+  //       params: {
+  //         destination: value,
+  //         domain: { fullName: 'rebrand.ly' }
+  //       }
+  //     }
+  //   );
+  // };
 
   const onSubmit = (e) => {
     e.preventDefault();
-    JSON.stringify(shorten());
+    // shorten();
   };
   return (
     <div className="App bg-slate-50">
